@@ -1,0 +1,100 @@
+body{
+    background-image: url("1204217.jpg");
+    background-repeat: no-repeat;
+}
+.container{
+    width:1000px;
+    margin: auto;
+    overflow: hidden;
+  
+}
+span{
+    color:rgb(196, 151, 202);
+}
+form{
+
+    width: 300px;
+    height: 550px;
+    margin: 50px auto;
+    background-color: rgba(0,0,0,0.4);;
+    border-radius: 9px ;
+    padding: 35px;
+    
+}
+h2{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+}
+
+.container{
+    font-family: sans-serif;
+    color:white;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+
+input{
+    width:100%;
+    border:none;
+    padding:8px;
+    margin-top: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+input[type=radio ]{
+    width:10%;
+}
+input[type=checkbox]{
+    width:10%;
+   
+}
+
+input[type=submit]{
+    margin:19px;
+    padding:6px;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 77, 45, 0.7);
+    border:none;
+}
+
+input[type=submit]:hover{
+    width: 70%;
+    color:black;
+    background-color: palevioletred;
+}
+input:hover{
+    font-size: 14px;
+}
+input:focus{
+    outline: none;
+    
+   
+}
+
+@media (max-width:500px){
+    body{
+        background-image: url("/form/Samsung-Galaxy-Note-8-Stock-wallpapers-Mohamedovic-1-min.jpg");
+        background-repeat: no-repeat;
+    }
+    form{
+        width:76%;
+        font-family: Tahoma;
+        text-align: center;
+    }
+
+    span{
+        color:rgb(101 106 255);
+    }
+    input{
+        text-align: center;
+    }
+
+    input[type=submit]{
+        background-color:rgb(0 164 221 / 70%);
+    }
+}
